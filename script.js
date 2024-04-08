@@ -87,7 +87,7 @@ btnHold.addEventListener('click', function () {
         playing=false;
         document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
         document.querySelector(`.player--${activePlayer}`).classList.remove('player--active');
-        // remove all functionalitys accept "new game";
+        // remove all functionalities accept "new game";
         diceEl.classList.add('hidden');
         playing=false;
     }else{
@@ -111,7 +111,7 @@ btnNew.addEventListener('click', function(){
 
     scores=[0, 0];
     currentScore=0;
-    activePlayer=0;
+    
 
     document.querySelector(`.player--${activePlayer}`).classList.remove('player--winner');
 
